@@ -1,3 +1,50 @@
 body {
-    
+    background-color: #3e3231;
+}
+#wrapper {
+    background-color: #f3f1e9;
+    max-width: 960px;
+    padding-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+}
+header {
+    background-color: #f3f1e9;
+    -webkit-box-shadow: .5px .5px .5px .25px #3e3231;
+    box-shadow: .5px .5px .5px .25px #3e3231;
+    text-align: center;
+}
+.logo {
+    width: 30%;
+    height: auto;
+}
+.textures {
+    width: 60%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1 {
+    font-family: 'Oleo Script', cursive;
+    color: #c68a22;
+    font-size: 3em;
+}
+h2, h3, p {
+    color: #3e3231;
+    font-family: 'Merriweather', serif;
+}
+h4, a {
+    color: #01574f;
+}
+.sidebar {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.button {
+    background-color: #01574f;
+}
+.button, a {
+    color: #f3f1e9;
+    font-family: 'Oleo Script', cursive;
 }
