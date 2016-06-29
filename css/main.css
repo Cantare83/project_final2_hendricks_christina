@@ -1,6 +1,15 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 body {
     background-color: #3e3231;
 }
+
 #wrapper {
     background-color: #f3f1e9;
     max-width: 960px;
@@ -9,16 +18,19 @@ body {
     margin-right: auto;
     padding-bottom: 05%;
 }
+
 header {
     background-color: #f3f1e9;
     -webkit-box-shadow: .5px .5px .5px .25px #3e3231;
     box-shadow: .5px .5px .5px .25px #3e3231;
     text-align: center;
 }
+
 .logo {
     width: 30%;
     height: auto;
 }
+
 .textures {
     width: 60%;
     height: auto;
@@ -26,24 +38,29 @@ header {
     margin-left: auto;
     margin-right: auto;
 }
+
 h1, h2 {
     font-family: 'Oleo Script', cursive;
     color: #c68a22;
     font-size: 3em;
 }
+
 h2 {
     font-family: 'Oleo Script', cursive;
     color: #c68a22;
     font-size: 2em;
 }
+
 h3, p {
     color: #3e3231;
     font-family: 'Merriweather', serif;
 }
+
 .sidebar {
     margin-left: 10%;
     margin-right: 10%;
 }
+
 .button {
     background-color: #01574f;
     width: 35%;
@@ -53,6 +70,7 @@ h3, p {
     padding: 01px;
     margin-top: 03px;
 }
+
 .button:hover {
     background-color: #c68a22;
     width: 35%;
@@ -62,6 +80,7 @@ h3, p {
     padding: 01px;
     margin-top: 03px;
 }
+
 .button, a {
     color: #c68a22;
     font-family: 'Oleo Script', cursive;
@@ -69,6 +88,7 @@ h3, p {
     text-align: center;
     font-size: 1.2em;
 }
+
 .button, a:hover {
     color: #01574f;
     font-family: 'Oleo Script', cursive;
