@@ -46,16 +46,32 @@ h3, p {
 }
 .button {
     background-color: #01574f;
-    width: 50%;
+    width: 35%;
     margin-left: auto;
     margin-right: auto;
     border-radius: 8px;
-    padding: 05px;
-    margin-top: 05px;
+    padding: 01px;
+    margin-top: 03px;
+}
+.button:hover {
+    background-color: #c68a22;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    padding: 01px;
+    margin-top: 03px;
 }
 .button, a {
     color: #c68a22;
     font-family: 'Oleo Script', cursive;
     text-decoration: none;
     text-align: center;
+    font-size: 1.2em;
+}
+.button, a:hover {
+    color: #01574f;
+    font-family: 'Oleo Script', cursive;
+    text-align: center;
+    font-size: 1.2em;
 }
