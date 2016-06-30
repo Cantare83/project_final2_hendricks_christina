@@ -35,11 +35,21 @@ header {
     -webkit-box-shadow: .5px .5px .5px .25px #3e3231;
     box-shadow: .5px .5px .5px .25px #3e3231;
     text-align: center;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .logo {
     width: 30%;
     height: auto;
+}
+
+@media (min-width: 600px) {
+    .logo {
+        width: 179px;
+        float: left;
+    }
 }
 
 .textures {
