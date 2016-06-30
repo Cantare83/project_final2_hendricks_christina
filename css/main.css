@@ -19,6 +19,17 @@ body {
     padding-bottom: 05%;
 }
 
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
 header {
     background-color: #f3f1e9;
     -webkit-box-shadow: .5px .5px .5px .25px #3e3231;
@@ -39,16 +50,16 @@ header {
     margin-right: auto;
 }
 
-h1, h2 {
+h1 {
     font-family: 'Oleo Script', cursive;
     color: #c68a22;
-    font-size: 3em;
+    font-size: 2.5em;
 }
 
 h2 {
-    font-family: 'Oleo Script', cursive;
-    color: #c68a22;
-    font-size: 2em;
+    color: #3e3231;
+    font-family: 'Merriweather', serif;
+    font-size: 1.5em;
 }
 
 h3, p {
