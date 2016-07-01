@@ -1,6 +1,6 @@
 
 #Final Part 2
-[GitHub Repository]()
+[GitHub Repository](https://github.com/Cantare83/project_final2_hendricks_christina)
 
 [Project Link](http://www.chrisihendricks.net/project_final2_hendricks_christina/)
 
